@@ -42,3 +42,15 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.reportCanvas {
+    height: 85% !important;
+}
+
+.dashboardCanvas {
+    height: 85% !important;
+}
+
+.nav-tabs {
+  margin-top: 20px;
+}
