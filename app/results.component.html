@@ -1,0 +1,8 @@
+<tabset>
+  <tab *ngFor="let tabElement of tabs"
+    [heading]="tabElement.title"
+    (select)="onClick(tabElement.id)"
+    (deselect)="tabElement.active = false">
+  </tab>
+  <component-loader [component]=dynamicComponent [id]=curTab></component-loader>
+</tabset>

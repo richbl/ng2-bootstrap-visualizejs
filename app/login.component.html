@@ -1,0 +1,14 @@
+<alert *ngFor="let alert of alerts.alerts" [type]="alert.type" dismissOnTimeout="3000" dismissible="true">
+  {{ alert?.msg }}
+</alert>
+
+<div class="wrapper">
+    <form class="form-signin" (submit)="onSubmit()">
+    <h2 class="form-signin-heading"></h2>
+    <input type="text" class="form-control" placeholder="Username" required="" autofocus="" [(ngModel)]="user.name" />
+    <input type="password" class="form-control" placeholder="Password" required="" [(ngModel)]="user.password" />
+    <input type="text" class="form-control" placeholder="Organization" required="" [(ngModel)]="user.organization" />
+    <br>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+  </form>
+</div>

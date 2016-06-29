@@ -1,0 +1,68 @@
+<html>
+
+  <head>
+    <title>Angular 2 QuickStart</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <base href="/">
+
+    <!-- 1. Load libraries -->
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.min.js"></script>
+
+    <script src="node_modules/ng2-bootstrap/bundles/ng2-bootstrap.min.js"></script>
+
+    <!-- TODO should make this dynamically loaded through component -->
+    <script src="http://visualizejsdemo.jaspersoft.com/jasperserver-pro/client/visualize.js"></script>
+
+
+    <!-- 2. Configure SystemJS -->
+    <script>
+      System.config({
+        packages: {
+          app: {
+            format: 'register',
+            defaultExtension: 'js'
+          },
+
+          '@angular/router-deprecated': {
+            main: 'index.js',
+            defaultExtension: 'js'
+          },
+
+        },
+        map: {
+          moment: 'node_modules/moment/moment.js',
+          "@angular/core": "node_modules/@angular/core/bundles/core.umd.js",
+          "@angular/common": "node_modules/@angular/common/bundles/common.umd.js",
+
+          "@angular/router-deprecated": "node_modules/@angular/router-deprecated",
+
+          "@angular/compiler": "node_modules/@angular/compiler/bundles/compiler.umd.js",
+          "@angular/platform-browser-dynamic": "node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js",
+          "@angular/platform-browser": "node_modules/@angular/platform-browser/bundles/platform-browser.umd.js",
+
+          // ng2-bootstrap specifics
+          "@angular/core/src/facade/lang": "node_modules/@angular/core/src/facade/lang.js",
+        }
+      });
+      System.import('app/boot')
+        .then(null, console.error.bind(console));
+    </script>
+
+  </head>
+
+  <!-- 3. Display the application -->
+
+  <body>
+    <my-app>Loading...</my-app>
+  </body>
+
+</html>
