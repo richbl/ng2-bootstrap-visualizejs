@@ -8,6 +8,8 @@ A demonstration application that draws [Jaspersoft](http://www.jaspersoft.com/) 
 ## Tabbed Results View 
 ![enter image description here](https://cloud.githubusercontent.com/assets/10182110/16466128/d90eb6c2-3df6-11e6-8ed2-74c19399481d.png)
 
+> Note that the font rendering issue is a side-effect of the Visualize.js library, and neither the Angular Framework nor the Ng2-Bootstrap libraries.
+
 ## Based on Angular 2-Quickstart
 This repository is based on the [Angular 2-Quickstart](https://github.com/valor-software/angular2-quickstart), which is provided by Valor Software to demo a simple implementation of their [Native Angular 2 Directives for Bootstrap](http://valor-software.com/ng2-bootstrap/#/).
 
