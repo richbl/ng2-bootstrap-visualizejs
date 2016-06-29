@@ -5,8 +5,12 @@ A demonstration application that draws [Jaspersoft](http://www.jaspersoft.com/) 
 
 ## User Login Screen
 ![enter image description here](https://cloud.githubusercontent.com/assets/10182110/16470095/16c8664a-3e09-11e6-95b5-93be3e0ccb0f.png)
-## Tabbed Results View 
+## Tabbed Result Views
 ![enter image description here](https://cloud.githubusercontent.com/assets/10182110/16470115/2ad353a2-3e09-11e6-856b-6fee94ea7edf.png)
+
+![enter image description here](https://cloud.githubusercontent.com/assets/10182110/16470519/7767b4ae-3e0b-11e6-867e-65aaf4aff737.png)
+
+![enter image description here](https://cloud.githubusercontent.com/assets/10182110/16470559/be02fd6a-3e0b-11e6-8a50-85ec58fdc8b8.png)
 
 ## Based on Angular 2-Quickstart
 This repository is based on the [Angular 2-Quickstart](https://github.com/valor-software/angular2-quickstart), which is provided by Valor Software to demo a simple implementation of their [Native Angular 2 Directives for Bootstrap](http://valor-software.com/ng2-bootstrap/#/).
