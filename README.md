@@ -1,5 +1,3 @@
-[![Known Vulnerabilities](https://snyk.io/test/github/richbl/ng2-bootstrap-visualizejs/badge.svg)](https://snyk.io/test/github/richbl/ng2-bootstrap-visualizejs)
-
 # Ng2-Bootstrap-Visualizejs
 A demonstration application that draws [Jaspersoft](http://www.jaspersoft.com/) report/dashboard resources with the [Visualize.js](http://community.jaspersoft.com/project/visualizejs) library using the [tabs](http://valor-software.com/ng2-bootstrap/#/tabs) and [alerts](http://valor-software.com/ng2-bootstrap/#/alerts) directives from the [ng2-bootstrap](https://github.com/valor-software/ng2-bootstrap) library. All implemented using the [Angular Framework](https://angular.io/) (Angular 2.0).
 
