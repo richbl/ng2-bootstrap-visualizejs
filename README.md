@@ -1,7 +1,7 @@
 # Ng2-Bootstrap-Visualizejs
 A demonstration application that draws [Jaspersoft](http://www.jaspersoft.com/) report/dashboard resources with the [Visualize.js](http://community.jaspersoft.com/project/visualizejs) library using the [tabs](http://valor-software.com/ng2-bootstrap/#/tabs) and [alerts](http://valor-software.com/ng2-bootstrap/#/alerts) directives from the [ng2-bootstrap](https://github.com/valor-software/ng2-bootstrap) library. All implemented using the [Angular Framework](https://angular.io/) (Angular 2.0).
 
-> Interesting in implementing a [Visualize.js](http://community.jaspersoft.com/project/visualizejs) solution without using the [ng2-bootstrap](https://github.com/valor-software/ng2-bootstrap) library? Check out [this related project](https://github.com/richbl/ng2-visualizejs) instead.
+> Interested in implementing a [Visualize.js](http://community.jaspersoft.com/project/visualizejs) solution without using the [ng2-bootstrap](https://github.com/valor-software/ng2-bootstrap) library? Check out [this related project](https://github.com/richbl/ng2-visualizejs) instead.
 
 ## User Login Screen
 ![enter image description here](https://cloud.githubusercontent.com/assets/10182110/16470095/16c8664a-3e09-11e6-95b5-93be3e0ccb0f.png)
