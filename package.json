@@ -22,7 +22,7 @@
     "@angular/router-deprecated": "2.0.0-rc.2",
     "@angular/upgrade": "2.0.0-rc.4",
 
-    "angular2-in-memory-web-api": "0.0.14",
+    "angular2-in-memory-web-api": "0.0.21",
     "bootstrap": "^3.3.6",
     "core-js": "^2.4.0",
     "ng2-bootstrap": "1.6.3",
